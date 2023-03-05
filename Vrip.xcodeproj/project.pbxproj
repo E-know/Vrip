@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F01A09F29B4D1770089A56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01A09E29B4D1770089A56F /* AppDelegate.swift */; };
+		5F01A0A129B4D1770089A56F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01A0A029B4D1770089A56F /* SceneDelegate.swift */; };
+		5F01A0A329B4D1770089A56F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01A0A229B4D1770089A56F /* ViewController.swift */; };
+		5F01A0A829B4D1770089A56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F01A0A729B4D1770089A56F /* Assets.xcassets */; };
+		5F01A0AB29B4D1770089A56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F01A0A929B4D1770089A56F /* LaunchScreen.storyboard */; };
+		5F01A0B629B4D1770089A56F /* VripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01A0B529B4D1770089A56F /* VripTests.swift */; };
+		5F01A0C029B4D1770089A56F /* VripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01A0BF29B4D1770089A56F /* VripUITests.swift */; };
+		5F01A0C229B4D1770089A56F /* VripUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01A0C129B4D1770089A56F /* VripUITestsLaunchTests.swift */; };
+		5F01A0D029B4D3570089A56F /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 5F01A0CF29B4D3570089A56F /* Then */; };
+		5F01A0D329B4D36A0089A56F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5F01A0D229B4D36A0089A56F /* SnapKit */; };
+		5F01A0D529B4D36A0089A56F /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5F01A0D429B4D36A0089A56F /* SnapKit-Dynamic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F01A0B229B4D1770089A56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F01A09329B4D1770089A56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F01A09A29B4D1770089A56F;
+			remoteInfo = Vrip;
+		};
+		5F01A0BC29B4D1770089A56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F01A09329B4D1770089A56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F01A09A29B4D1770089A56F;
+			remoteInfo = Vrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F01A09B29B4D1770089A56F /* Vrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F01A09E29B4D1770089A56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F01A0A029B4D1770089A56F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F01A0A229B4D1770089A56F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F01A0A729B4D1770089A56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F01A0AA29B4D1770089A56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F01A0AC29B4D1770089A56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F01A0B129B4D1770089A56F /* VripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F01A0B529B4D1770089A56F /* VripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VripTests.swift; sourceTree = "<group>"; };
+		5F01A0BB29B4D1770089A56F /* VripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F01A0BF29B4D1770089A56F /* VripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VripUITests.swift; sourceTree = "<group>"; };
+		5F01A0C129B4D1770089A56F /* VripUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VripUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F01A09829B4D1770089A56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01A0D029B4D3570089A56F /* Then in Frameworks */,
+				5F01A0D329B4D36A0089A56F /* SnapKit in Frameworks */,
+				5F01A0D529B4D36A0089A56F /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F01A0AE29B4D1770089A56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F01A0B829B4D1770089A56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F01A09229B4D1770089A56F = {
+			isa = PBXGroup;
+			children = (
+				5F01A09D29B4D1770089A56F /* Vrip */,
+				5F01A0B429B4D1770089A56F /* VripTests */,
+				5F01A0BE29B4D1770089A56F /* VripUITests */,
+				5F01A09C29B4D1770089A56F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F01A09C29B4D1770089A56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F01A09B29B4D1770089A56F /* Vrip.app */,
+				5F01A0B129B4D1770089A56F /* VripTests.xctest */,
+				5F01A0BB29B4D1770089A56F /* VripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F01A09D29B4D1770089A56F /* Vrip */ = {
+			isa = PBXGroup;
+			children = (
+				5F01A09E29B4D1770089A56F /* AppDelegate.swift */,
+				5F01A0A029B4D1770089A56F /* SceneDelegate.swift */,
+				5F01A0A229B4D1770089A56F /* ViewController.swift */,
+				5F01A0A729B4D1770089A56F /* Assets.xcassets */,
+				5F01A0A929B4D1770089A56F /* LaunchScreen.storyboard */,
+				5F01A0AC29B4D1770089A56F /* Info.plist */,
+			);
+			path = Vrip;
+			sourceTree = "<group>";
+		};
+		5F01A0B429B4D1770089A56F /* VripTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F01A0B529B4D1770089A56F /* VripTests.swift */,
+			);
+			path = VripTests;
+			sourceTree = "<group>";
+		};
+		5F01A0BE29B4D1770089A56F /* VripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F01A0BF29B4D1770089A56F /* VripUITests.swift */,
+				5F01A0C129B4D1770089A56F /* VripUITestsLaunchTests.swift */,
+			);
+			path = VripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F01A09A29B4D1770089A56F /* Vrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F01A0C529B4D1770089A56F /* Build configuration list for PBXNativeTarget "Vrip" */;
+			buildPhases = (
+				5F01A09729B4D1770089A56F /* Sources */,
+				5F01A09829B4D1770089A56F /* Frameworks */,
+				5F01A09929B4D1770089A56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vrip;
+			packageProductDependencies = (
+				5F01A0CF29B4D3570089A56F /* Then */,
+				5F01A0D229B4D36A0089A56F /* SnapKit */,
+				5F01A0D429B4D36A0089A56F /* SnapKit-Dynamic */,
+			);
+			productName = Vrip;
+			productReference = 5F01A09B29B4D1770089A56F /* Vrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F01A0B029B4D1770089A56F /* VripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F01A0C829B4D1770089A56F /* Build configuration list for PBXNativeTarget "VripTests" */;
+			buildPhases = (
+				5F01A0AD29B4D1770089A56F /* Sources */,
+				5F01A0AE29B4D1770089A56F /* Frameworks */,
+				5F01A0AF29B4D1770089A56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F01A0B329B4D1770089A56F /* PBXTargetDependency */,
+			);
+			name = VripTests;
+			productName = VripTests;
+			productReference = 5F01A0B129B4D1770089A56F /* VripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F01A0BA29B4D1770089A56F /* VripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F01A0CB29B4D1770089A56F /* Build configuration list for PBXNativeTarget "VripUITests" */;
+			buildPhases = (
+				5F01A0B729B4D1770089A56F /* Sources */,
+				5F01A0B829B4D1770089A56F /* Frameworks */,
+				5F01A0B929B4D1770089A56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F01A0BD29B4D1770089A56F /* PBXTargetDependency */,
+			);
+			name = VripUITests;
+			productName = VripUITests;
+			productReference = 5F01A0BB29B4D1770089A56F /* VripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F01A09329B4D1770089A56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5F01A09A29B4D1770089A56F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5F01A0B029B4D1770089A56F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5F01A09A29B4D1770089A56F;
+					};
+					5F01A0BA29B4D1770089A56F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5F01A09A29B4D1770089A56F;
+					};
+				};
+			};
+			buildConfigurationList = 5F01A09629B4D1770089A56F /* Build configuration list for PBXProject "Vrip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F01A09229B4D1770089A56F;
+			packageReferences = (
+				5F01A0CE29B4D3570089A56F /* XCRemoteSwiftPackageReference "Then" */,
+				5F01A0D129B4D36A0089A56F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 5F01A09C29B4D1770089A56F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F01A09A29B4D1770089A56F /* Vrip */,
+				5F01A0B029B4D1770089A56F /* VripTests */,
+				5F01A0BA29B4D1770089A56F /* VripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F01A09929B4D1770089A56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01A0AB29B4D1770089A56F /* LaunchScreen.storyboard in Resources */,
+				5F01A0A829B4D1770089A56F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F01A0AF29B4D1770089A56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F01A0B929B4D1770089A56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F01A09729B4D1770089A56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01A0A329B4D1770089A56F /* ViewController.swift in Sources */,
+				5F01A09F29B4D1770089A56F /* AppDelegate.swift in Sources */,
+				5F01A0A129B4D1770089A56F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F01A0AD29B4D1770089A56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01A0B629B4D1770089A56F /* VripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F01A0B729B4D1770089A56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01A0C029B4D1770089A56F /* VripUITests.swift in Sources */,
+				5F01A0C229B4D1770089A56F /* VripUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F01A0B329B4D1770089A56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F01A09A29B4D1770089A56F /* Vrip */;
+			targetProxy = 5F01A0B229B4D1770089A56F /* PBXContainerItemProxy */;
+		};
+		5F01A0BD29B4D1770089A56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F01A09A29B4D1770089A56F /* Vrip */;
+			targetProxy = 5F01A0BC29B4D1770089A56F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F01A0A929B4D1770089A56F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F01A0AA29B4D1770089A56F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F01A0C329B4D1770089A56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F01A0C429B4D1770089A56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F01A0C629B4D1770089A56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vrip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.toby.Vrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5F01A0C729B4D1770089A56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vrip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.toby.Vrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5F01A0C929B4D1770089A56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.toby.VripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vrip";
+			};
+			name = Debug;
+		};
+		5F01A0CA29B4D1770089A56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.toby.VripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vrip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vrip";
+			};
+			name = Release;
+		};
+		5F01A0CC29B4D1770089A56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.toby.VripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vrip;
+			};
+			name = Debug;
+		};
+		5F01A0CD29B4D1770089A56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developer.toby.VripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F01A09629B4D1770089A56F /* Build configuration list for PBXProject "Vrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F01A0C329B4D1770089A56F /* Debug */,
+				5F01A0C429B4D1770089A56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F01A0C529B4D1770089A56F /* Build configuration list for PBXNativeTarget "Vrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F01A0C629B4D1770089A56F /* Debug */,
+				5F01A0C729B4D1770089A56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F01A0C829B4D1770089A56F /* Build configuration list for PBXNativeTarget "VripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F01A0C929B4D1770089A56F /* Debug */,
+				5F01A0CA29B4D1770089A56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F01A0CB29B4D1770089A56F /* Build configuration list for PBXNativeTarget "VripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F01A0CC29B4D1770089A56F /* Debug */,
+				5F01A0CD29B4D1770089A56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F01A0CE29B4D3570089A56F /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		5F01A0D129B4D36A0089A56F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F01A0CF29B4D3570089A56F /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F01A0CE29B4D3570089A56F /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		5F01A0D229B4D36A0089A56F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F01A0D129B4D36A0089A56F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		5F01A0D429B4D36A0089A56F /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F01A0D129B4D36A0089A56F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5F01A09329B4D1770089A56F /* Project object */;
+}
